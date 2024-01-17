@@ -4,6 +4,13 @@
 
 Visit here: https://starship.rs/
 
+## Terminal Icons
+
+```
+scoop bucket add extra
+scoop install terminal-icons
+```
+
 ## nvm
 
 `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash`
