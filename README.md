@@ -37,3 +37,11 @@ To install a Python version inside of that environment:
 
 Remove (base) on Terminal Prompt:
 `conda config --set auto_activate_base false` -> This will deactivate the base environment. Activate it again when needed.
+
+## gcc
+
+Install via WSL
+```
+sudo apt-get update
+sudo apt-get install build-essential gdb
+```
