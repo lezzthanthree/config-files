@@ -45,3 +45,7 @@ Install via WSL
 sudo apt-get update
 sudo apt-get install build-essential gdb
 ```
+
+## lazygit
+
+Installation can be found here: https://github.com/jesseduffield/lazygit
