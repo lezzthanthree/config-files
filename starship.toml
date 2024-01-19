@@ -9,6 +9,7 @@ $git_branch\
 $git_status\
 [](fg:#FCA17D bg:#8d86d8)\
 $c\
+$dotnet\
 $elixir\
 $elm\
 $golang\
@@ -84,6 +85,11 @@ format = '[ $symbol ($version) ]($style)'
 symbol = " "
 style = "bg:#06969A"
 format = '[ $symbol $context ]($style)'
+
+[dotnet]
+symbol = " "
+style = "bg:#8d86d8"
+format = '[ $symbol ($version) ]($style)'
 
 [elixir]
 symbol = " "
