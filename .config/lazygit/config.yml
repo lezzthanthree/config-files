@@ -2,3 +2,11 @@ gui:
   nerdFontsVersion: "3"
 os:
   editPreset: 'nvim'
+notARepository: 'skip'
+keybindings:
+  global:
+    quit-alt1: ''
+    undo: '<c-z>'
+    redo: '<c-y>'
+  commits:
+    copyCommitMessageToClipboard: '<c-c>'
