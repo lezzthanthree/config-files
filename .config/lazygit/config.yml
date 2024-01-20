@@ -5,7 +5,7 @@ os:
 notARepository: 'skip'
 keybindings:
   global:
-    quit-alt1: ''
+    quit-alt1: '<disabled>'
     undo: '<c-z>'
     redo: '<c-y>'
   commits:
