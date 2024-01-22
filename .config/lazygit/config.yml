@@ -8,6 +8,4 @@ keybindings:
   global:
     undo: '<c-z>'
     redo: '<c-y>'
-  commits:
-    copyCommitMessageToClipboard: '<c-c>'
 confirmOnQuit: true
