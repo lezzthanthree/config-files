@@ -10,3 +10,4 @@ keybindings:
     redo: '<c-y>'
   commits:
     copyCommitMessageToClipboard: '<c-c>'
+confirmOnQuit: true
