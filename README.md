@@ -2,7 +2,7 @@
 This is my configuration files. Use it if you want.
 
 ## Tools in this configuration
-CLI Git: lazygit
+Terminal UI Git: lazygit
 
 Terminal: powershell, bash
 
