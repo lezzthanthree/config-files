@@ -4,10 +4,10 @@ $os\
 $username\
 [](bg:#DA627D fg:#9A348E)\
 $directory\
-[](fg:#DA627D bg:#FCA17D)\
+[](fg:#DA627D bg:#344f9a)\
 $git_branch\
 $git_status\
-[](fg:#FCA17D bg:#8d86d8)\
+[](fg:#344f9a bg:#8d86d8)\
 $c\
 $dotnet\
 $elixir\
@@ -103,12 +103,20 @@ format = '[ $symbol ($version) ]($style)'
 
 [git_branch]
 symbol = ""
-style = "bg:#FCA17D"
+style = "bg:#344f9a"
 format = '[ $symbol $branch ]($style)'
 
 [git_status]
-style = "bg:#FCA17D"
-format = '[$all_status$ahead_behind ]($style)'
+style = "bg:#344f9a"
+format = '[$all_status$ahead_behind]($style)'
+ahead = ' '
+behind = ' '
+conflicted = ' '
+diverged = ' '
+staged = ' '
+modified = '󱞂 '
+stashed = ' '
+untracked = '󰡯 '
 
 [golang]
 symbol = " "
