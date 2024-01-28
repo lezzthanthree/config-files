@@ -117,6 +117,8 @@ staged = ' '
 modified = '󱞂 '
 stashed = ' '
 untracked = '󰡯 '
+deleted = ' '
+renamed = '󰑕 '
 
 [golang]
 symbol = " "
