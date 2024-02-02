@@ -4,8 +4,11 @@ gui:
 os:
   editPreset: 'nvim'
 notARepository: 'skip'
-keybindings:
+keybinding:
   global:
     undo: '<c-z>'
     redo: '<c-y>'
+  commits:
+    renameCommit: 'r'
+    viewResetOptions: '<delete>'
 confirmOnQuit: true
