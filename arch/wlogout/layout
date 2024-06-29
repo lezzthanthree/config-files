@@ -1,7 +1,7 @@
 {
 	"label" : "shutdown",
 	"action" : "systemctl poweroff",
-	"text" : "STAB",
+	"text" : " STAB ",
 	"keybind" : "s",
 }
 {

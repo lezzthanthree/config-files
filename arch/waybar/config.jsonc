@@ -79,6 +79,6 @@
 	},
 	"custom/power": {
 		"format":"󰧻",
-		"on-click": "wlogout -b 3 -c 50"
+		"on-click": "wlogout -b 3"
 	}
 }

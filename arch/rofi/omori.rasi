@@ -1,0 +1,123 @@
+* {
+    white: #FFFFFF;
+    black: #000000;
+
+    spacing: 2;
+    background-color: #00000000;
+    border-color: #FFFFFFFF;
+    anchor: north;
+    location: center;
+}
+window {
+    transparency: "real";
+    background-color: #00000000;
+    padding: 0% 0% 1em 0%;
+    x-offset: 0;
+    y-offset: -10%;
+    
+}
+mainbox {
+    padding: 0px;
+    border: 0;
+    spacing: 1%;
+    children: [mode-switcher,inputbar,listview,textbox-current-entry];
+}
+
+textbox-current-entry {
+    padding: 0.5em 1em;
+    border: 3px;
+    background-color: @black;
+    text-color: @white;
+    text-transform: uppercase;
+    children: [icon-current-entry];
+}
+
+message {
+    border: 3px;
+    padding: 1em;
+    background-color: @black;
+    text-color: @white;
+}
+textbox normal {
+    text-color: #002B36FF;
+    padding: 0;
+    border: 0;
+}
+listview {
+    fixed-height: 1;
+    border: 3px;
+    padding: 1em;
+    reverse: false;
+    columns: 2;
+    background-color: @black;
+}
+element {
+    border: 0;
+    padding: 2px;
+    highlight: bold ;
+}
+element-text {
+    background-color: inherit;
+    text-color:       inherit;
+}
+element normal {
+    text-color: #FFFFFFFF;
+    background-color: #000000ff;
+}
+element selected {
+    text-color: #FFFFFFFF;
+    background-color: #555555FF;
+}
+element alternate {
+    text-color: #FFFFFFFF;
+    background-color: #000000FF;
+}
+scrollbar {
+    border: 0;
+    padding: 0;
+}
+inputbar {
+    spacing: 0;
+    border: 3px;
+    padding: 0.5em 1em;
+    background-color: @black;
+    index: 0;
+}
+mode-switcher {
+    background-color: @black;
+    border: 3px;
+}
+button {
+    padding: 0.5em 1em;
+    background-color: @black;
+    text-color: #FFFFFFFF;
+}
+button selected {
+    text-color: #FF0000FF;
+}
+
+
+inputbar {
+    children:   [ prompt,textbox-prompt-colon,entry,case-indicator ];
+}
+
+prompt, textbox-prompt-colon, entry, case-indicator {
+    text-color: @white;
+}
+
+entry {
+    placeholder: "Waiting for something to happen?";
+    placeholder-color: #666666;
+}
+
+textbox-prompt-colon {
+    expand:     false;
+    str:        ":";
+    margin:     0px 0.3em 0em 0em ;
+}
+error-message {
+    border: 3px;
+    padding: 1em;
+    background-color: #FF8888;
+    text-color: @black;
+}
