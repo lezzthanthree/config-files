@@ -1,0 +1,19 @@
+[colors.primary]
+background = "#ffffff"
+foreground = "#000000"
+
+[window]
+title = "Alacritty"
+class = { instance = "Alacritty", general= "Alacritty"}
+padding = {x=15, y=15}
+
+[font]
+normal = { family="UbuntuMono Nerd Font Mono", style="Regular"}
+
+[bell]
+animation = "Linear"
+duration = 400
+
+[cursor]
+style = { shape="Beam", blinking="On" }
+vi_mode_style = { shape="Beam", blinking="On" }

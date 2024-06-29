@@ -1,0 +1,69 @@
+@define-color white #ffffff;
+@define-color black #000000;
+
+* {
+	font-size: 15px;
+	font-family: "Monofur Nerd Font";
+}
+
+window#waybar {
+	background: @white;
+	color: @black;
+}
+
+#workspaces,
+#clock.1,
+#clock.2,
+#clock.3,
+#network,
+#pulseaudio,
+#memory,
+#cpu,
+#battery,
+#disk,
+#tray,
+#custom-power {
+	background: @white;
+}
+
+#workspaces button {
+	padding: 0;
+	border-radius: 0;
+	color: @black;
+}
+#workspaces button.visible {
+	background:@black;
+	color: @white;
+}
+
+#pulseaudio {
+	color: @black;
+}
+#battery {
+	color: @black;
+}
+#battery.warning {
+	color: @yellow;
+}
+#battery.critical {
+	color: @red;
+}
+
+#network {
+    color: @aqua;
+}
+
+#clock,
+#network,
+#pulseaudio,
+#memory,
+#cpu,
+#battery,
+#tray,
+#disk,
+#custom-power {
+	color: @black;
+	background: @white;
+	padding: 0 10px;
+	margin-left: .5em;
+}

@@ -1,0 +1,7 @@
+configuration {
+	font: "OMORI_GAME 15";
+}
+
+
+
+/* @theme "/usr/share/rofi/themes/paper-float.rasi" */

@@ -1,0 +1,84 @@
+{
+	"layer": "top",
+	"position": "bottom",
+
+	"modules-left": [
+		"hyprland/workspaces"
+	],
+	//"modules-center": [
+	//	"clock#1",
+	//	"clock#2"
+	//],
+	"modules-right": [
+		"network",
+		"pulseaudio",
+		"battery",
+		"tray",
+		"clock#1",
+		"clock#2",
+		"custom/power",
+	],
+
+	"hyprland/workspaces": {
+		"disable-scroll": true,
+		"format": "{name}"
+	},
+
+	"clock#1": {
+		"format": "{:%a %b %d}",
+		"tooltip": false
+	},
+	"clock#2": {
+		"format": "{:%H:%M}",
+		"tooltip": false
+	},
+
+	"network": {
+        // "interface": "wlp2s0", // (Optional) To force the use of this interface
+        "format-wifi": "",
+        "format-ethernet": "󰌗",
+        "format-disconnected": "⚠ Disconnected",
+		"max-length": 19,
+        "interval" : 7,
+		"on-click": "kitty nmtui"
+    },
+
+	"pulseaudio": {
+		"format": "{icon}  {volume:2}%",
+		"format-bluetooth": "{icon}  {volume}%",
+		"format-muted": "MUTE",
+		"format-icons": {
+			"headphones": "",
+			"default": [
+				"",
+				""
+			]
+		},
+		"scroll-step": 5,
+		"on-click": "pavucontrol"
+	},
+	"battery": {
+		"interval": 5,
+		"states": {
+			"good": 95,
+			"warning": 30,
+			"critical": 15
+		},
+		"format": "{icon}  {capacity}%",
+		"format-charging": "󱐋{icon}  {capacity}%",
+		"format-icons": [
+			"",
+			"",
+			"",
+			"",
+			""
+		]
+	},
+	"tray": {
+		"icon-size": 20
+	},
+	"custom/power": {
+		"format":"󰧻",
+		"on-click": "wlogout -b 3 -c 50"
+	}
+}

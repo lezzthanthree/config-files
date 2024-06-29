@@ -1,0 +1,36 @@
+* {
+	background-image: none;
+	box-shadow: none;
+	font-family: "OMORI_GAME";
+}
+
+window {
+	background-color: rgba(255, 255, 255, 0.4);
+}
+
+button {
+	text-decoration-color: #FFFFFF;
+ 	color: #FFFFFF;
+	background-size: 0%;
+	border: 3px #ffffff solid;
+	border-radius: 0px;
+	text-shadow: none;
+	background-position: center;
+	background-color: #000000;
+	background-repeat: no-repeat;
+	font-size:50px;
+	margin: 190px 0;
+}
+
+button:active, button:hover {
+	border:3px #555555 solid;
+	outline-style: none;
+}
+
+#shutdown {
+	color: #ff0000
+}
+
+#shutdown:hover {
+	border: 3px #ff0000 solid;
+}
