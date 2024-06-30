@@ -4,8 +4,8 @@
 * DE: hyprland
 * Wallpaper Manager: hyprpaper
 * Custom Bash Prompt: starship
-* Application Launcher: roji
-* Log Out Menu: wlogiout
+* Application Launcher: rofi
+* Log Out Menu: wlogout
 * Status Bar: waybar
 * Spicetify Theme: [StarryNight](https://github.com/spicetify/spicetify-themes/tree/master/StarryNight)
 
