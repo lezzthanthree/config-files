@@ -1,0 +1,29 @@
+
+
+[[themes]]
+name = "OMORI"
+[themes.palette]
+background = "black"
+foreground = "white"
+
+black = "black"
+red = "red"
+green = "green"
+yellow = "yellow"
+blue = "blue"
+magenta = "magenta"
+cyan = "cyan"
+white = "white"
+bright_black = "bright_black"
+bright_red = "bright_red"
+bright_green = "bright_green"
+bright_yellow = "bright_yellow"
+bright_blue = "bright_blue"
+bright_magenta = "bright_magenta"
+bright_cyan = "bright_cyan"
+bright_white = "bright_white"
+
+[themes.component_style]
+block_title = { fg = "White", modifiers = ["Bold"] } 
+playback_progress_bar = { bg = "White", fg = "Black", modifiers = ["Reversed"] }
+
