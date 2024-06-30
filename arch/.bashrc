@@ -12,6 +12,9 @@ alias grep='grep --color=auto'
 alias ll="ls -l"
 alias cd..="cd .."
 alias lg="lazygit"
+alias qq="exit"
+alias q="exit"
+
 
 # Start Ups
 eval "$(ssh-agent -s)"
