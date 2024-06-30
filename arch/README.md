@@ -1,19 +1,14 @@
 # Welcome To White Space.
 
-Terminal: alacritty
+* Terminal: alacritty
+* DE: hyprland
+* Wallpaper Manager: hyprpaper
+* Custom Bash Prompt: starship
+* Application Launcher: roji
+* Log Out Menu: wlogiout
+* Status Bar: waybar
+* Spicetify Theme: [StarryNight](https://github.com/spicetify/spicetify-themes/tree/master/StarryNight)
 
-DE: hyprland
-
-Wallpaper Manager: hyprpaper
-
-Custom Bash Prompt: starship
-
-Application Launcher: roji
-
-Log Out Menu: wlogiout
-
-Status Bar: waybar
-
-![](./img/Preview_1.png)
-![](./img/Preview_2.png)
-![](./img/Preview_3.png)
+![](./img/Preview_4.png)
+![](./img/Preview_5.png)
+![](./img/Preview_6.png)
