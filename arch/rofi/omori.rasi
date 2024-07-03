@@ -1,10 +1,10 @@
 * {
-    white: #FFFFFF;
+    white: #ffffff;
     black: #000000;
 
     spacing: 2;
     background-color: #00000000;
-    border-color: #FFFFFFFF;
+    border-color: #ffffffff;
     anchor: north;
     location: center;
 }
@@ -14,75 +14,16 @@ window {
     padding: 0% 0% 1em 0%;
     x-offset: 0;
     y-offset: -10%;
-    
 }
 mainbox {
     padding: 0px;
     border: 0;
     spacing: 1%;
-    children: [mode-switcher,inputbar,listview,textbox-current-entry];
+    children: [mode-switcher, inputbar, listview];
 }
 
-textbox-current-entry {
-    padding: 0.5em 1em;
-    border: 3px;
-    background-color: @black;
-    text-color: @white;
-    text-transform: uppercase;
-    children: [icon-current-entry];
-}
+/* mode switcher */
 
-message {
-    border: 3px;
-    padding: 1em;
-    background-color: @black;
-    text-color: @white;
-}
-textbox normal {
-    text-color: #002B36FF;
-    padding: 0;
-    border: 0;
-}
-listview {
-    fixed-height: 1;
-    border: 3px;
-    padding: 1em;
-    reverse: false;
-    columns: 2;
-    background-color: @black;
-}
-element {
-    border: 0;
-    padding: 2px;
-    highlight: bold ;
-}
-element-text {
-    background-color: inherit;
-    text-color:       inherit;
-}
-element normal {
-    text-color: #FFFFFFFF;
-    background-color: #000000ff;
-}
-element selected {
-    text-color: #FFFFFFFF;
-    background-color: #555555FF;
-}
-element alternate {
-    text-color: #FFFFFFFF;
-    background-color: #000000FF;
-}
-scrollbar {
-    border: 0;
-    padding: 0;
-}
-inputbar {
-    spacing: 0;
-    border: 3px;
-    padding: 0.5em 1em;
-    background-color: @black;
-    index: 0;
-}
 mode-switcher {
     background-color: @black;
     border: 3px;
@@ -90,18 +31,29 @@ mode-switcher {
 button {
     padding: 0.5em 1em;
     background-color: @black;
-    text-color: #FFFFFFFF;
+    text-color: #ffffffff;
+    text-transform: uppercase;
 }
 button selected {
-    text-color: #FF0000FF;
+    background-image: url("./selected_mode_b&w.png");
+    /* text-color: #ff0000ff; */
 }
 
+/* input bar  */
 
 inputbar {
-    children:   [ prompt,textbox-prompt-colon,entry,case-indicator ];
+    spacing: 0;
+    border: 3px;
+    padding: 0.5em 1em;
+    background-color: @black;
+    index: 0;
+    children: [ textbox-prompt-colon, entry, case-indicator];
 }
 
-prompt, textbox-prompt-colon, entry, case-indicator {
+prompt,
+textbox-prompt-colon,
+entry,
+case-indicator {
     text-color: @white;
 }
 
@@ -111,13 +63,84 @@ entry {
 }
 
 textbox-prompt-colon {
-    expand:     false;
-    str:        ":";
-    margin:     0px 0.3em 0em 0em ;
+    expand: false;
+    str: "mewo:";
+    margin: 0px 0.3em 0em 0em;
 }
+
+message {
+    border: 3px;
+    padding: 1em;
+    background-color: @black;
+    text-color: @white;
+}
+
+textbox normal {
+    text-color: #002b36ff;
+    padding: 0;
+    border: 0;
+}
+
+/* listview */
+
+listview {
+    fixed-height: 1;
+    border: 3px;
+    padding: 1em;
+    reverse: false;
+    columns: 2;
+    fixed-columns: 2;
+    background-color: @black;
+}
+element {
+    border: 0;
+    padding: 2px 35px;
+    highlight: bold;
+}
+element-text {
+    background-color: inherit;
+    text-color: inherit;
+}
+element normal {
+    text-color: #ffffffff;
+    background-color: #000000ff;
+}
+element selected {
+    text-color: #ffffffff;
+    background-image: url("./selected.png");
+    /* background-color: #555555ff; */
+}
+element alternate {
+    text-color: #ffffffff;
+    background-color: #000000ff;
+}
+scrollbar {
+    border: 0;
+    padding: 0;
+}
+
+selected-item {
+    children: [icon-current-entry, textbox-current-entry];
+}
+
+textbox-current-entry {
+    orientation: horizontal;
+    padding: 0.5em 1em;
+    border: 3px;
+    background-color: @black;
+    text-color: @white;
+    text-transform: uppercase;
+}
+
+icon-current-entry {
+    /* size: 100px; */
+    padding: 0;
+    margin: 0;
+}
+
 error-message {
     border: 3px;
     padding: 1em;
-    background-color: #FF8888;
+    background-color: #ff8888;
     text-color: @black;
 }
