@@ -1,51 +1,52 @@
 * {
-	background-image: none;
-	box-shadow: none;
-	font-family: "OMORI_GAME";
+    background-image: none;
+    box-shadow: none;
+    font-family: "OMORI_GAME";
 }
 
 window {
-	background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 body {
-	border: 5px #ffffff solid;
+    border: 5px #ffffff solid;
 }
 
 button {
-	text-decoration-color: #FFFFFF;
- 	color: #FFFFFF;
-	background-size: 0%;
-	border: 0px;
-	border-radius: 0px;
-	text-shadow: none;
-	background-position: center;
-	background-color: #000000;
-	background-repeat: no-repeat;
-	font-size:50px;
-	margin: 190px 0;
+    text-decoration-color: #ffffff;
+    color: #ffffff;
+    background-size: 130%;
+    border: 0px;
+    border-radius: 0px;
+    text-shadow: none;
+    background-position: 0 50%;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    font-size: 50px;
+    margin: 190px 0;
+    transition: all 0s;
 }
 
-button:active, button:hover {
-	outline-style: none;
+button:focus {
+    background-image: image(url("./selected_wlogout.png"));
+    outline-style: none;
+    transition: all 0s;
 }
 
 #shutdown {
-	border-left: 5px #ffffff solid;
-	border-top: 5px #ffffff solid;
-	border-bottom: 5px #ffffff solid;
-	color: #ff0000
+    border-left: 5px #ffffff solid;
+    border-top: 5px #ffffff solid;
+    border-bottom: 5px #ffffff solid;
+    color: #ff0000;
 }
 
 #reboot {
-	border-top: 5px #ffffff solid;
-	border-bottom: 5px #ffffff solid;
+    border-top: 5px #ffffff solid;
+    border-bottom: 5px #ffffff solid;
 }
 
 #logout {
-	border-right: 5px #ffffff solid;
-	border-top: 5px #ffffff solid;
-	border-bottom: 5px #ffffff solid;
+    border-right: 5px #ffffff solid;
+    border-top: 5px #ffffff solid;
+    border-bottom: 5px #ffffff solid;
 }
-
-
