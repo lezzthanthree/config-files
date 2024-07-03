@@ -1,4 +1,27 @@
+[[themes]]
+name = "latte"
+[themes.palette]
+background = "#eff1f5"
+foreground = "#4c4f69"
+black = "#eff1f5"
+blue = "#1e66f5"
+cyan = "#04a5e5"
+green = "#40a02b"
+magenta = "#8839ef"
+red = "#d20f39"
+white = "#4c4f69"
+yellow = "#df8e1d"
+bright_black = "#eff1f5"
+bright_blue = "#1e66f5"
+bright_cyan = "#04a5e5"
+bright_green = "#40a02b"
+bright_magenta = "#8839ef"
+bright_red = "#d20f39"
+bright_white = "#4c4f69"
+bright_yellow = "#df8e1d"
 
+[themes.component_style]
+selection = { bg = "#ccd0da", modifiers = ["Bold"] }
 
 [[themes]]
 name = "OMORI"
