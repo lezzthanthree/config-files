@@ -1,0 +1,45 @@
+lastupdatecheck: 0
+recentrepos:
+    - /home/smilie/Code/config-files
+    - /home/smilie/Code/SEKAI-Stories
+    - /home/smilie/Code/SEKAIde
+    - /home/smilie/Code/stratpoint
+    - /home/smilie/Code/WebDev/lezzthanthree.github.io
+    - /home/smilie/Code/sekai-viewer
+    - /home/smilie/Code/stratpoint/blog-stratpoint
+    - /home/smilie/Code/stratpoint/genielvn-portfolio
+    - /home/smilie/Code/stratpoint/sample
+    - /home/smilie/Code/stratpoint/test
+    - /home/smilie/Code/anonforum
+    - /home/smilie/Code/_TESTS/Next-JS-DRF-AuthJS-Template
+    - /home/smilie/Code/start-page
+    - /home/smilie/Code/SIFAS-Dialogue-Sandbox
+    - /home/smilie/Code/data-structures-and-algorithm-in-python
+    - /home/smilie/Code/pjsk-dialogue
+    - /home/smilie/Code/project-V
+    - /home/smilie/Code/AttResRoBERTa
+    - /home/smilie/Code/fouruni
+    - /home/smilie/Code/lezzthanthree
+    - /home/smilie/Code/llsifas/llsifas-django
+    - /home/smilie/Code/genielvn
+    - /home/smilie/Code/LearningWebDev
+    - /home/smilie/Code/WebDev/SafeDanbooru
+    - /home/smilie/Code/WebDev/Software-Engineering-I
+    - /home/smilie/Code/AIExercise/searchproblem
+    - /home/smilie/Code/WebDev/starting-page
+    - /home/smilie/Code/Yassou
+    - /home/smilie/Code/WebDev/Sari Sari Keys
+    - /mnt/c/Users/Smilie Pop/Code/BugTIMERush
+startuppopupversion: 5
+lastversion: 0.42.0
+customcommandshistory:
+    - ssh-add ~/.ssh/genielvn
+    - eval $(ssh-agent -s)
+    - ""
+hidecommandlog: false
+ignorewhitespaceindiffview: false
+diffcontextsize: 7
+localbranchsortorder: recency
+remotebranchsortorder: alphabetical
+gitlogorder: topo-order
+gitlogshowgraph: always

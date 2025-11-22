@@ -1,6 +1,7 @@
 gui:
   nerdFontsVersion: "3"
   showBottomLine: false
+  skipDiscardChangeWarning: true
 os:
   editPreset: 'nvim'
 notARepository: 'skip'
@@ -8,6 +9,8 @@ keybinding:
   global:
     undo: '<c-z>'
     redo: '<c-y>'
+  files:
+    viewResetOptions: '<end>'
   commits:
     renameCommit: 'r'
     viewResetOptions: '<delete>'

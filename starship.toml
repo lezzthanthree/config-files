@@ -20,6 +20,7 @@ $julia\
 $nodejs\
 $nim\
 $python\
+$conda\
 $rust\
 $scala\
 [](fg:#8d86d8 bg:#33658A)\
@@ -56,7 +57,7 @@ Macos = '󰀵 '
 style = "bg:#DA627D"
 read_only_style = "bg:#DA627D"
 format = "[ $path ]($style)[$read_only]($read_only_style)"
-truncation_length = 2
+truncation_length = 3
 truncation_symbol = "…/"
 home_symbol = '󰋜 ~'
 read_only = '  '
@@ -158,6 +159,10 @@ format = '[ $symbol ($version) ]($style)'
 symbol = " "
 style = "bg:#8d86d8"
 format = '[ $symbol ($version) ]($style)'
+
+[conda]
+style = "bg:#8d86d8"
+format = '[ \($environment\) ]($style)'
 
 [rust]
 symbol = ""
