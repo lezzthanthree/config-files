@@ -162,7 +162,8 @@ format = '[ $symbol ($version) ]($style)'
 
 [conda]
 style = "bg:#8d86d8"
-format = '[ \($environment\) ]($style)'
+format = '[ \(conda: $environment\) ]($style)'
+ignore_base = false
 
 [rust]
 symbol = ""
